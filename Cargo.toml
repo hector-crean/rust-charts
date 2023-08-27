@@ -1,0 +1,26 @@
+[package]
+name = "charts"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+svg = "^0.10.0"
+serde = {version="1.0.186", features=["derive"]}
+serde_json = "1.0.105"
+
+uuid = {version="1.4.1", features=["serde"]}
+
+thiserror="1.0.47"
+color-eyre = "0.6.2"
+petgraph = {version="0.6.4", features=["serde-1"]}
+
+egui_graphs = "0.7.6"
+egui = "0.22"
+eframe = "0.22"
+fdg-sim = "0.9"
+rand = "0.8"
+crossbeam = "0.8"
+
+strum = {version="0.25.0", features=["derive"]}
