@@ -1,17 +1,61 @@
-use std::{fmt, fs::File, io::Read, path::Path};
+pub mod crs_dose;
+
+use std::{fmt, fs::File, io::Write, path::Path};
 
 use serde::{Deserialize, Serialize};
 
 #[derive(
-    Serialize, Deserialize, Debug, PartialEq, PartialOrd, Eq, Ord, Clone, Copy, strum::Display,
+    Hash,
+    Serialize,
+    Deserialize,
+    Debug,
+    PartialEq,
+    PartialOrd,
+    Eq,
+    Ord,
+    Clone,
+    Copy,
+    strum::Display,
+    strum::EnumIter,
 )]
 pub enum CytokineReleaseSyndromeGrade {
     G0,
     G1,
     G2,
 }
+
+#[derive(thiserror::Error, Debug)]
+pub enum EnumIntConversionError {
+    #[error("The integer`{0}` could not be converted into the enum")]
+    FromIntError(i32),
+}
+impl TryFrom<i32> for CytokineReleaseSyndromeGrade {
+    type Error = EnumIntConversionError;
+
+    fn try_from(value: i32) -> Result<Self, Self::Error> {
+        use CytokineReleaseSyndromeGrade::*;
+        match value {
+            0 => Ok(G0),
+            1 => Ok(G1),
+            2 => Ok(G2),
+            int @ _ => Err(EnumIntConversionError::FromIntError(int)),
+        }
+    }
+}
+
 #[derive(
-    Serialize, Deserialize, Debug, PartialEq, PartialOrd, Eq, Ord, Clone, Copy, strum::Display,
+    Hash,
+    Serialize,
+    Deserialize,
+    Debug,
+    PartialEq,
+    PartialOrd,
+    Eq,
+    Ord,
+    Clone,
+    Copy,
+    strum::Display,
+    strum::EnumIter,
 )]
 pub enum Dose {
     D1,
@@ -19,6 +63,22 @@ pub enum Dose {
     D3,
     D4,
 }
+
+impl TryFrom<i32> for Dose {
+    type Error = EnumIntConversionError;
+
+    fn try_from(value: i32) -> Result<Self, Self::Error> {
+        use Dose::*;
+        match value {
+            1 => Ok(D1),
+            2 => Ok(D2),
+            3 => Ok(D3),
+            4 => Ok(D4),
+            int @ _ => Err(EnumIntConversionError::FromIntError(int)),
+        }
+    }
+}
+
 #[derive(Serialize, Deserialize, Debug)]
 pub struct NodeDatum {
     pub grade: CytokineReleaseSyndromeGrade,
@@ -77,9 +137,15 @@ impl fmt::Display for DosageEvent {
 pub fn deserialise_from_file<Json: Serialize + for<'a> Deserialize<'a>>(
     path: impl AsRef<Path>,
 ) -> Result<Json, DeserializeFromFileError> {
-    let mut rdr = File::open(path)?;
+    let rdr = File::open(path)?;
 
     let json: Json = serde_json::from_reader(rdr).expect("JSON was not well-formatted");
 
     Ok(json)
+}
+
+pub fn save_to_file(path: impl AsRef<Path>, content: &str) -> std::io::Result<()> {
+    let mut file = File::create(path)?;
+    file.write_all(content.as_bytes())?;
+    Ok(())
 }
