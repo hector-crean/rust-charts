@@ -2,20 +2,15 @@ pub mod errors;
 pub mod file_op;
 pub mod models;
 pub mod sankey;
+pub mod sankey_graph;
 pub mod settings;
 
 use crate::{
     file_op::read_csv_file,
-    models::{
-        crs_dose::AeDoseCsvRecord, save_to_file, CytokineReleaseSyndromeGradeIter, DosageEvent,
-    },
+    models::{crs_dose::AeDoseCsvRecord, DosageEvent},
     models::{CytokineReleaseSyndromeGrade, Dose},
 };
-use petgraph::{
-    dot::{Config, Dot},
-    stable_graph::NodeIndex,
-    Directed, Graph,
-};
+use petgraph::{stable_graph::NodeIndex, Directed, Graph};
 use std::collections::HashMap;
 use strum::IntoEnumIterator;
 
@@ -31,7 +26,7 @@ impl<T: Ord> SortAndReturn for Vec<T> {
 }
 
 pub fn create_crs_graph() -> errors::Result<Graph<DosageEvent, i32, Directed>> {
-    let mut records: Vec<AeDoseCsvRecord> = read_csv_file("./dose.csv")?;
+    let records: Vec<AeDoseCsvRecord> = read_csv_file("./dose.csv")?;
 
     let mut node_idxs = HashMap::<(Dose, CytokineReleaseSyndromeGrade), NodeIndex>::new();
 
@@ -47,7 +42,7 @@ pub fn create_crs_graph() -> errors::Result<Graph<DosageEvent, i32, Directed>> {
     let mut subjects = HashMap::<i32, Vec<AeDoseCsvRecord>>::new();
 
     for record in records.iter() {
-        let key = record.subject_id.clone();
+        let key = record.subject_id;
 
         subjects
             .entry(key)

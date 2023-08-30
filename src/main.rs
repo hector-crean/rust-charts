@@ -1,20 +1,26 @@
 use charts::{
     create_crs_graph, errors,
+    models::DosageEvent,
     sankey::{LayerOrderingMethod, SankeyLayers},
+    sankey_graph::{convert_to_sankey, SankeyStyle},
 };
 
+fn labeller(dosage_event: DosageEvent) -> String {
+    dosage_event.to_string()
+}
 fn main() -> errors::Result<()> {
     let graph = create_crs_graph()?;
 
-    let mut sankey_layers = SankeyLayers::new(&graph);
+    let sankey = convert_to_sankey(graph, &labeller);
 
-    println!("{:?}", &sankey_layers);
+    let style = SankeyStyle {
+        number_format: Some(|x| format!("{x}")),
+        ..SankeyStyle::default()
+    };
 
-    let ordered_layers = sankey_layers.ordered_layers(LayerOrderingMethod::Median);
+    let svg = sankey.draw(512.0, 512.0, style);
 
-    println!("{:?}", &ordered_layers);
-
-    // sankey.order_layers(&graph, LayerOrderingMethod::Barycenter);
+    svg::save("./example.svg", &svg).unwrap();
 
     Ok(())
 }

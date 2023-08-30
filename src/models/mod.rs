@@ -38,7 +38,7 @@ impl TryFrom<i32> for CytokineReleaseSyndromeGrade {
             0 => Ok(G0),
             1 => Ok(G1),
             2 => Ok(G2),
-            int @ _ => Err(EnumIntConversionError::FromIntError(int)),
+            int => Err(EnumIntConversionError::FromIntError(int)),
         }
     }
 }
@@ -74,7 +74,7 @@ impl TryFrom<i32> for Dose {
             2 => Ok(D2),
             3 => Ok(D3),
             4 => Ok(D4),
-            int @ _ => Err(EnumIntConversionError::FromIntError(int)),
+            int => Err(EnumIntConversionError::FromIntError(int)),
         }
     }
 }

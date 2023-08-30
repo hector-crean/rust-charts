@@ -2,7 +2,7 @@ use csv::{ReaderBuilder, WriterBuilder};
 use serde::{self, Deserialize, Serialize};
 use std::{
     fs::File,
-    io::{BufReader, BufWriter, Write},
+    io::{BufWriter, Write},
     path::Path,
 };
 

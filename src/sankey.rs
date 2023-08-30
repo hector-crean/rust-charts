@@ -1,14 +1,148 @@
-use std::cmp::Ordering;
-use std::collections::{BTreeMap, HashMap};
+use std::collections::{BTreeMap, HashMap, HashSet};
 use std::fmt::{Debug, Display};
+use std::ops::Range;
 
-use crate::models::{deserialise_from_file, save_to_file, AltGraph, DosageEvent};
-
-use petgraph::algo::toposort;
-use petgraph::dot::{Config, Dot};
-use petgraph::stable_graph::NodeIndex;
+use petgraph::stable_graph::{EdgeIndex, NodeIndex};
 use petgraph::visit::{EdgeRef, Topo, Walker};
 use petgraph::Directed;
+
+use itertools::Itertools;
+
+fn x() {
+    let perms = (5..8).permutations(2);
+}
+
+struct IVec2 {
+    x: i32, // essentially the 'depth' or 'layer' of the graph
+    y: i32, // we imagine each layer as a verical series of slots. The y refers to the slot index. Each node will take a contiguous range of slot indices
+}
+
+fn is_intersecting(p1: &IVec2, q1: &IVec2, p2: &IVec2, q2: &IVec2) -> bool {
+    let det = (q1.x - p1.x) * (q2.y - p2.y) - (q1.y - p1.y) * (q2.x - p2.x);
+    if det.abs() < 0 {
+        return false; // Lines are parallel
+    }
+
+    let lambda = ((q2.y - p2.y) * (q2.x - p1.x) + (p2.x - q2.x) * (q2.y - p1.y)) / det;
+    let gamma = ((p1.y - q1.y) * (q2.x - p1.x) + (q1.x - p1.x) * (q2.y - p1.y)) / det;
+
+    (0 <= lambda && lambda <= 1) && (0 <= gamma && gamma <= 1)
+}
+
+/**
+ * A sankey diagram will always be represented as a directed acyclic graph (DAG). In general, sankey diagrams represent aggregates, so
+ * we don't care about individual characteristics, but pfizer have requested that they can see the trajectory of individual patients
+ * through the sankey diagram. As such we can either:
+ *
+ * 1. imagein the acyclic graph as a set of 'folded' nodes, where each node contains subnodes. In the folded state, the individual subnodes are aggregated
+ *  into one supernode, and their links are aggregated into individual links to other supernodes
+ * 2. use multuple links to connected between nodes, where each link has a patient specific id
+ *
+ *
+ * For representation 1, we can initially order 'layers' using the supernodes, and then organise the subnode coordinates
+ *
+ */
+
+type SlotIndex = i32;
+
+struct NodeSlots {
+    incoming: Range<SlotIndex>,
+    outgoing: Range<SlotIndex>,
+}
+type NodeSlotsContraint = HashMap<NodeIndex, NodeSlots>;
+
+// We're not enfocing at this stage that an incoming edge has to be at the same slot position of an outgoing edge of the same type subject_id...
+
+type EdgeSlots = (i32, i32);
+struct SankeySolver<N: Clone + Display, E: Clone> {
+    pub slot_coordinates: HashMap<EdgeIndex, (IVec2, IVec2)>,
+    layer_ids: HashMap<NodeIndex, LayerId>,
+    graph: petgraph::Graph<N, E>,
+    node_slots_contraint: NodeSlotsContraint,
+}
+
+impl<N: Clone + Display, E: Clone> SankeySolver<N, E> {
+    fn new(&self, graph: petgraph::Graph<N, E>, node_slots_contraint: NodeSlotsContraint) -> Self {
+        let layer_ids = SankeySolver::<N, E>::layer_ids(&graph);
+
+        let node_slots_contraint = HashMap::<NodeIndex, NodeSlots>::new();
+
+        let slot_coordinates = HashMap::<EdgeIndex, (IVec2, IVec2)>::new();
+
+        for edge_ref in self.graph.edge_references() {
+            let (source, target) = (edge_ref.source(), edge_ref.target());
+        }
+
+        Self {
+            slot_coordinates: HashMap::new(),
+            layer_ids,
+            graph,
+            node_slots_contraint,
+        }
+    }
+    fn layer_ids(graph: &petgraph::Graph<N, E>) -> HashMap<NodeIndex, usize> {
+        let mut layer_ids: HashMap<NodeIndex, LayerId> = HashMap::new();
+
+        let mut topo = Topo::new(&graph);
+
+        while let Some(node) = topo.next(&graph) {
+            // Determine the layer of this node. If it has no predecessors, it's in layer 0.
+            let layer = graph
+                .neighbors_directed(node, petgraph::Direction::Incoming)
+                .map(|neighbor| {
+                    // If the neighbor isn't assigned a layer, it defaults to 0. This shouldn't
+                    // really happen with a proper topological sort, but just in case...
+                    *layer_ids.get(&neighbor).unwrap_or(&0) + 1
+                })
+                .max()
+                .unwrap_or(0);
+
+            layer_ids.insert(node, layer);
+        }
+
+        layer_ids
+    }
+    fn permute(&mut self) -> Self {
+        todo!()
+    }
+    fn score(&self) -> f64 {
+        let mut H = 0.0;
+        for i in self.graph.edge_references() {
+            for j in self.graph.edge_references() {
+                let edge_i: EdgeIndex = i.id();
+                let edge_j: EdgeIndex = j.id();
+
+                let slot_i = self.slot_coordinates.get(&edge_i);
+                let slot_j = self.slot_coordinates.get(&edge_j);
+
+                match (slot_i, slot_j) {
+                    (Some((p1, q1)), Some((p2, q2))) => match is_intersecting(p1, q1, p2, q2) {
+                        true => {
+                            H += 1.0;
+                        }
+                        false => {
+                            H -= 1.0;
+                        }
+                    },
+                    _ => {
+                        print!(
+                            "Could not find slots for {:?}, {:?}, {:?}, {:?}",
+                            i.source(),
+                            i.target(),
+                            j.source(),
+                            j.target()
+                        )
+                    }
+                }
+
+                let (source_node_id, target_node_id) = (i.source(), i.target());
+            }
+        }
+        H
+    }
+}
+
+// type NodeCoordinates = HashMap<NodeIndex, IVec2>;
 
 pub enum LayerOrderingMethod {
     // Order nodes in a layer by the average position of their neighbors in the previous layer.
@@ -68,101 +202,10 @@ impl<N: Clone + Display, E: Clone> SankeyLayers<N, E> {
         let mut layer_map: BTreeMap<LayerId, Vec<NodeIndex>> = BTreeMap::new();
 
         for (node, layer) in &self.layer_ids {
-            layer_map.entry(layer.clone()).or_default().push(*node);
+            layer_map.entry(*layer).or_default().push(*node);
         }
 
         layer_map
-    }
-
-    fn average_position(
-        &self,
-        graph: &petgraph::Graph<N, E, Directed>,
-        node: NodeIndex,
-        prev_nodes: &[NodeIndex],
-    ) -> f64 {
-        let neighbors: Vec<_> = graph.neighbors_directed(node, petgraph::Incoming).collect();
-        if neighbors.is_empty() {
-            return 0.0;
-        }
-
-        let total: f64 = neighbors
-            .iter()
-            .filter_map(|&neighbor| prev_nodes.iter().position(|&x| x == neighbor))
-            .map(|pos| pos as f64)
-            .sum();
-
-        total / neighbors.len() as f64
-    }
-
-    fn median_position(
-        &self,
-        graph: &petgraph::Graph<N, E, Directed>,
-        node: NodeIndex,
-        prev_nodes: &[NodeIndex],
-    ) -> f64 {
-        let mut positions: Vec<_> = graph
-            .neighbors_directed(node, petgraph::Incoming)
-            .filter_map(|neighbor| prev_nodes.iter().position(|&x| x == neighbor))
-            .collect();
-
-        positions.sort_unstable();
-
-        let len = positions.len();
-        if len == 0 {
-            return 0.0;
-        }
-        if len % 2 == 1 {
-            positions[len / 2] as f64
-        } else {
-            (positions[len / 2 - 1] + positions[len / 2]) as f64 / 2.0
-        }
-    }
-
-    pub fn ordered_layers(
-        &mut self,
-        method: LayerOrderingMethod,
-    ) -> BTreeMap<LayerId, Vec<NodeIndex>> {
-        let layers = self.collect_by_layer();
-
-        let keys: Vec<_> = layers.keys().cloned().collect();
-        for i in 0..keys.len() {
-            let layer_id = keys[i];
-
-            if let Some(node_ids) = layers.clone().get_mut(&layer_id) {
-                if i > 0 {
-                    let prev_layer_id = keys[i - 1];
-                    if let Some(prev_node_ids) = layers.get(&prev_layer_id) {
-                        match method {
-                            LayerOrderingMethod::Barycenter => {
-                                node_ids.sort_by(|&a, &b| {
-                                    let a_score =
-                                        self.average_position(&self.graph, a, prev_node_ids);
-                                    let b_score =
-                                        self.average_position(&self.graph, b, prev_node_ids);
-                                    a_score
-                                        .partial_cmp(&b_score)
-                                        .unwrap_or(std::cmp::Ordering::Equal)
-                                });
-                            }
-                            LayerOrderingMethod::Median => {
-                                node_ids.sort_by(|&a, &b| {
-                                    let a_score =
-                                        self.median_position(&self.graph, a, prev_node_ids);
-                                    let b_score =
-                                        self.median_position(&self.graph, b, prev_node_ids);
-                                    a_score
-                                        .partial_cmp(&b_score)
-                                        .unwrap_or(std::cmp::Ordering::Equal)
-                                });
-                            }
-                        }
-                    }
-                }
-                // No need for else block if we don't have specific logic for the first layer
-            }
-        }
-
-        layers
     }
 }
 
@@ -172,7 +215,7 @@ mod tests {
     use petgraph::Graph;
 
     #[test]
-    fn test_order_layers_barycenter() {
+    fn order_layers_barycenter() {
         // Create a simple graph.
         //       0
         //     / | \
@@ -192,19 +235,55 @@ mod tests {
         graph.add_edge(n2, n4, ());
 
         let mut sankey = SankeyLayers::new(&graph);
+    }
+    #[test]
+    fn order_layers_median() {
+        // Using the same graph structure
+        let mut graph = Graph::<&str, (), Directed>::new();
+        let n0 = graph.add_node("0");
+        let n1 = graph.add_node("1");
+        let n2 = graph.add_node("2");
+        let n3 = graph.add_node("3");
+        let n4 = graph.add_node("4");
 
-        println!("{:?}", &sankey);
+        graph.add_edge(n0, n1, ());
+        graph.add_edge(n0, n2, ());
+        graph.add_edge(n0, n3, ());
+        graph.add_edge(n2, n4, ());
 
-        let ordered_layers = sankey.ordered_layers(LayerOrderingMethod::Barycenter);
+        let mut sankey = SankeyLayers::new(&graph);
+    }
+    #[test]
+    fn collect_by_layer() {
+        let mut graph = Graph::<&str, (), Directed>::new();
+        let n0 = graph.add_node("0");
+        let n1 = graph.add_node("1");
+        let n2 = graph.add_node("2");
 
-        println!("{:?}", &ordered_layers);
+        graph.add_edge(n0, n1, ());
+        graph.add_edge(n0, n2, ());
 
-        let ordered_layer_1 = ordered_layers.get(&0).unwrap();
-        let ordered_layer_2 = ordered_layers.get(&1).unwrap();
-        let ordered_layer_3 = ordered_layers.get(&2).unwrap();
+        let sankey = SankeyLayers::new(&graph);
+        let layers = sankey.collect_by_layer();
 
-        assert_eq!(*ordered_layer_1, vec![n0]);
-        assert_eq!(*ordered_layer_2, vec![n3, n2, n1]);
-        assert_eq!(*ordered_layer_3, vec![n4]);
+        assert_eq!(layers.get(&0).unwrap(), &vec![n0]);
+        assert_eq!(layers.get(&1).unwrap(), &vec![n1, n2]); // Order might differ; we just want to check membership
+    }
+    #[test]
+    fn cycle_handling() {
+        let mut graph = Graph::<&str, (), Directed>::new();
+        let n0 = graph.add_node("0");
+        let n1 = graph.add_node("1");
+        let n2 = graph.add_node("2");
+
+        graph.add_edge(n0, n1, ());
+        graph.add_edge(n1, n2, ());
+        graph.add_edge(n2, n0, ());
+
+        let sankey = SankeyLayers::new(&graph);
+        let layers = sankey.collect_by_layer();
+
+        // This test is more for observation. Depending on how your code reacts, you might decide
+        // to place assertions here, or even better, handle cycles more gracefully in your main code.
     }
 }

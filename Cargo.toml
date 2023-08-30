@@ -26,3 +26,5 @@ crossbeam = "0.8"
 strum = {version="0.25.0", features=["derive"]}
 csv = "1.2.1"
 chrono = {version = "0.4.24", features = ["serde"] }
+
+itertools = "0.11.0"
