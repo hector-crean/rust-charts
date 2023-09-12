@@ -1,0 +1,3810 @@
+[
+  {
+    "NSID": 10021001,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#CCFF00"
+  },
+  {
+    "NSID": 10021001,
+    "AEDOSE": "2",
+    "DV": "1",
+    "AEDOSE1": "2",
+    "DVC": "G1",
+    "NSID_Color": "#CCFF00"
+  },
+  {
+    "NSID": 10021001,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#CCFF00"
+  },
+  {
+    "NSID": 10021001,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#CCFF00"
+  },
+  {
+    "NSID": 10021002,
+    "AEDOSE": "1",
+    "DV": "1",
+    "AEDOSE1": "1",
+    "DVC": "G1",
+    "NSID_Color": "#6100FF"
+  },
+  {
+    "NSID": 10021002,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#6100FF"
+  },
+  {
+    "NSID": 10021002,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#6100FF"
+  },
+  {
+    "NSID": 10021002,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#6100FF"
+  },
+  {
+    "NSID": 10021003,
+    "AEDOSE": "1",
+    "DV": "1",
+    "AEDOSE1": "1",
+    "DVC": "G1",
+    "NSID_Color": "#00F0FF"
+  },
+  {
+    "NSID": 10021003,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#00F0FF"
+  },
+  {
+    "NSID": 10021003,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#00F0FF"
+  },
+  {
+    "NSID": 10021003,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#00F0FF"
+  },
+  {
+    "NSID": 10021004,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#8F00FF"
+  },
+  {
+    "NSID": 10021004,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#8F00FF"
+  },
+  {
+    "NSID": 10021004,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#8F00FF"
+  },
+  {
+    "NSID": 10021004,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#8F00FF"
+  },
+  {
+    "NSID": 10031005,
+    "AEDOSE": "1",
+    "DV": "2",
+    "AEDOSE1": "1",
+    "DVC": "G2",
+    "NSID_Color": "#BDFF00"
+  },
+  {
+    "NSID": 10031005,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#BDFF00"
+  },
+  {
+    "NSID": 10031005,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#BDFF00"
+  },
+  {
+    "NSID": 10031005,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#BDFF00"
+  },
+  {
+    "NSID": 10031006,
+    "AEDOSE": "1",
+    "DV": "1",
+    "AEDOSE1": "1",
+    "DVC": "G1",
+    "NSID_Color": "#FF1F00"
+  },
+  {
+    "NSID": 10031006,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#FF1F00"
+  },
+  {
+    "NSID": 10031006,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#FF1F00"
+  },
+  {
+    "NSID": 10031006,
+    "AEDOSE": "4",
+    "DV": "1",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G1",
+    "NSID_Color": "#FF1F00"
+  },
+  {
+    "NSID": 10031007,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#FF006B"
+  },
+  {
+    "NSID": 10031007,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#FF006B"
+  },
+  {
+    "NSID": 10031007,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#FF006B"
+  },
+  {
+    "NSID": 10031007,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#FF006B"
+  },
+  {
+    "NSID": 10031008,
+    "AEDOSE": "1",
+    "DV": "1",
+    "AEDOSE1": "1",
+    "DVC": "G1",
+    "NSID_Color": "#00FFE0"
+  },
+  {
+    "NSID": 10031008,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#00FFE0"
+  },
+  {
+    "NSID": 10031008,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#00FFE0"
+  },
+  {
+    "NSID": 10031008,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#00FFE0"
+  },
+  {
+    "NSID": 10031010,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#FF7A00"
+  },
+  {
+    "NSID": 10031010,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#FF7A00"
+  },
+  {
+    "NSID": 10031010,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#FF7A00"
+  },
+  {
+    "NSID": 10031010,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#FF7A00"
+  },
+  {
+    "NSID": 10031011,
+    "AEDOSE": "1",
+    "DV": "2",
+    "AEDOSE1": "1",
+    "DVC": "G2",
+    "NSID_Color": "#FF001F"
+  },
+  {
+    "NSID": 10031011,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#FF001F"
+  },
+  {
+    "NSID": 10031011,
+    "AEDOSE": "3",
+    "DV": "1",
+    "AEDOSE1": "3",
+    "DVC": "G1",
+    "NSID_Color": "#FF001F"
+  },
+  {
+    "NSID": 10031011,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#FF001F"
+  },
+  {
+    "NSID": 10031013,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#FF00B8"
+  },
+  {
+    "NSID": 10031013,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#FF00B8"
+  },
+  {
+    "NSID": 10031013,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#FF00B8"
+  },
+  {
+    "NSID": 10031013,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#FF00B8"
+  },
+  {
+    "NSID": 10031016,
+    "AEDOSE": "1",
+    "DV": "1",
+    "AEDOSE1": "1",
+    "DVC": "G1",
+    "NSID_Color": "#FFD600"
+  },
+  {
+    "NSID": 10031016,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#FFD600"
+  },
+  {
+    "NSID": 10031016,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#FFD600"
+  },
+  {
+    "NSID": 10031016,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#FFD600"
+  },
+  {
+    "NSID": 10041001,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#0500FF"
+  },
+  {
+    "NSID": 10041001,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#0500FF"
+  },
+  {
+    "NSID": 10041001,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#0500FF"
+  },
+  {
+    "NSID": 10041001,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#0500FF"
+  },
+  {
+    "NSID": 10051001,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#FF003D"
+  },
+  {
+    "NSID": 10051001,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#FF003D"
+  },
+  {
+    "NSID": 10051001,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#FF003D"
+  },
+  {
+    "NSID": 10051001,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#FF003D"
+  },
+  {
+    "NSID": 10051002,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#FF00A8"
+  },
+  {
+    "NSID": 10051002,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#FF00A8"
+  },
+  {
+    "NSID": 10051002,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#FF00A8"
+  },
+  {
+    "NSID": 10051002,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#FF00A8"
+  },
+  {
+    "NSID": 10071002,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#00FFE0"
+  },
+  {
+    "NSID": 10071002,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#00FFE0"
+  },
+  {
+    "NSID": 10071002,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#00FFE0"
+  },
+  {
+    "NSID": 10071002,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#00FFE0"
+  },
+  {
+    "NSID": 10071003,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#FF2E00"
+  },
+  {
+    "NSID": 10071003,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#FF2E00"
+  },
+  {
+    "NSID": 10071003,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#FF2E00"
+  },
+  {
+    "NSID": 10071003,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#FF2E00"
+  },
+  {
+    "NSID": 10101001,
+    "AEDOSE": "1",
+    "DV": "1",
+    "AEDOSE1": "1",
+    "DVC": "G1",
+    "NSID_Color": "#80FF00"
+  },
+  {
+    "NSID": 10101001,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#80FF00"
+  },
+  {
+    "NSID": 10101001,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#80FF00"
+  },
+  {
+    "NSID": 10101001,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#80FF00"
+  },
+  {
+    "NSID": 10101002,
+    "AEDOSE": "1",
+    "DV": "1",
+    "AEDOSE1": "1",
+    "DVC": "G1",
+    "NSID_Color": "#EBFF00"
+  },
+  {
+    "NSID": 10101002,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#EBFF00"
+  },
+  {
+    "NSID": 10101002,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#EBFF00"
+  },
+  {
+    "NSID": 10101002,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#EBFF00"
+  },
+  {
+    "NSID": 10101003,
+    "AEDOSE": "1",
+    "DV": "2",
+    "AEDOSE1": "1",
+    "DVC": "G2",
+    "NSID_Color": "#FF5C00"
+  },
+  {
+    "NSID": 10101003,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#FF5C00"
+  },
+  {
+    "NSID": 10101003,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#FF5C00"
+  },
+  {
+    "NSID": 10101003,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#FF5C00"
+  },
+  {
+    "NSID": 10101006,
+    "AEDOSE": "1",
+    "DV": "1",
+    "AEDOSE1": "1",
+    "DVC": "G1",
+    "NSID_Color": "#FF4D00"
+  },
+  {
+    "NSID": 10101006,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#FF4D00"
+  },
+  {
+    "NSID": 10101006,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#FF4D00"
+  },
+  {
+    "NSID": 10101006,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#FF4D00"
+  },
+  {
+    "NSID": 10111001,
+    "AEDOSE": "1",
+    "DV": "1",
+    "AEDOSE1": "1",
+    "DVC": "G1",
+    "NSID_Color": "#61FF00"
+  },
+  {
+    "NSID": 10111001,
+    "AEDOSE": "2",
+    "DV": "1",
+    "AEDOSE1": "2",
+    "DVC": "G1",
+    "NSID_Color": "#61FF00"
+  },
+  {
+    "NSID": 10111001,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#61FF00"
+  },
+  {
+    "NSID": 10111001,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#61FF00"
+  },
+  {
+    "NSID": 10111002,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#FF00D6"
+  },
+  {
+    "NSID": 10111002,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#FF00D6"
+  },
+  {
+    "NSID": 10111002,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#FF00D6"
+  },
+  {
+    "NSID": 10111002,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#FF00D6"
+  },
+  {
+    "NSID": 10121001,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#00C2FF"
+  },
+  {
+    "NSID": 10121001,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#00C2FF"
+  },
+  {
+    "NSID": 10121001,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#00C2FF"
+  },
+  {
+    "NSID": 10121001,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#00C2FF"
+  },
+  {
+    "NSID": 10121002,
+    "AEDOSE": "1",
+    "DV": "2",
+    "AEDOSE1": "1",
+    "DVC": "G2",
+    "NSID_Color": "#DB00FF"
+  },
+  {
+    "NSID": 10121002,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#DB00FF"
+  },
+  {
+    "NSID": 10121002,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#DB00FF"
+  },
+  {
+    "NSID": 10121002,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#DB00FF"
+  },
+  {
+    "NSID": 10131001,
+    "AEDOSE": "1",
+    "DV": "1",
+    "AEDOSE1": "1",
+    "DVC": "G1",
+    "NSID_Color": "#BD00FF"
+  },
+  {
+    "NSID": 10131001,
+    "AEDOSE": "2",
+    "DV": "1",
+    "AEDOSE1": "2",
+    "DVC": "G1",
+    "NSID_Color": "#BD00FF"
+  },
+  {
+    "NSID": 10131001,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#BD00FF"
+  },
+  {
+    "NSID": 10131001,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#BD00FF"
+  },
+  {
+    "NSID": 10151001,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#FF00F5"
+  },
+  {
+    "NSID": 10151001,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#FF00F5"
+  },
+  {
+    "NSID": 10151001,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#FF00F5"
+  },
+  {
+    "NSID": 10151001,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#FF00F5"
+  },
+  {
+    "NSID": 10151004,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#05FF00"
+  },
+  {
+    "NSID": 10151004,
+    "AEDOSE": "2",
+    "DV": "1",
+    "AEDOSE1": "2",
+    "DVC": "G1",
+    "NSID_Color": "#05FF00"
+  },
+  {
+    "NSID": 10151004,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#05FF00"
+  },
+  {
+    "NSID": 10151004,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#05FF00"
+  },
+  {
+    "NSID": 10151007,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#2400FF"
+  },
+  {
+    "NSID": 10151007,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#2400FF"
+  },
+  {
+    "NSID": 10151007,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#2400FF"
+  },
+  {
+    "NSID": 10151007,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#2400FF"
+  },
+  {
+    "NSID": 10151008,
+    "AEDOSE": "1",
+    "DV": "1",
+    "AEDOSE1": "1",
+    "DVC": "G1",
+    "NSID_Color": "#0094FF"
+  },
+  {
+    "NSID": 10151008,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#0094FF"
+  },
+  {
+    "NSID": 10151008,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#0094FF"
+  },
+  {
+    "NSID": 10151008,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#0094FF"
+  },
+  {
+    "NSID": 10161004,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#FF004C"
+  },
+  {
+    "NSID": 10161004,
+    "AEDOSE": "2",
+    "DV": "1",
+    "AEDOSE1": "2",
+    "DVC": "G1",
+    "NSID_Color": "#FF004C"
+  },
+  {
+    "NSID": 10161004,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#FF004C"
+  },
+  {
+    "NSID": 10161004,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#FF004C"
+  },
+  {
+    "NSID": 10191002,
+    "AEDOSE": "1",
+    "DV": "2",
+    "AEDOSE1": "1",
+    "DVC": "G2",
+    "NSID_Color": "#00FF47"
+  },
+  {
+    "NSID": 10191002,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#00FF47"
+  },
+  {
+    "NSID": 10191002,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#00FF47"
+  },
+  {
+    "NSID": 10191002,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#00FF47"
+  },
+  {
+    "NSID": 10191004,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#0094FF"
+  },
+  {
+    "NSID": 10191004,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#0094FF"
+  },
+  {
+    "NSID": 10191004,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#0094FF"
+  },
+  {
+    "NSID": 10191004,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#0094FF"
+  },
+  {
+    "NSID": 10191007,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#FF007A"
+  },
+  {
+    "NSID": 10191007,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#FF007A"
+  },
+  {
+    "NSID": 10191007,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#FF007A"
+  },
+  {
+    "NSID": 10191007,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#FF007A"
+  },
+  {
+    "NSID": 10251002,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#7000FF"
+  },
+  {
+    "NSID": 10251002,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#7000FF"
+  },
+  {
+    "NSID": 10251002,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#7000FF"
+  },
+  {
+    "NSID": 10251002,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#7000FF"
+  },
+  {
+    "NSID": 10291001,
+    "AEDOSE": "1",
+    "DV": "1",
+    "AEDOSE1": "1",
+    "DVC": "G1",
+    "NSID_Color": "#FF00A8"
+  },
+  {
+    "NSID": 10291001,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#FF00A8"
+  },
+  {
+    "NSID": 10291001,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#FF00A8"
+  },
+  {
+    "NSID": 10291001,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#FF00A8"
+  },
+  {
+    "NSID": 10321005,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#00B2FF"
+  },
+  {
+    "NSID": 10321005,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#00B2FF"
+  },
+  {
+    "NSID": 10321005,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#00B2FF"
+  },
+  {
+    "NSID": 10321005,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#00B2FF"
+  },
+  {
+    "NSID": 10321006,
+    "AEDOSE": "1",
+    "DV": "1",
+    "AEDOSE1": "1",
+    "DVC": "G1",
+    "NSID_Color": "#0029FF"
+  },
+  {
+    "NSID": 10321006,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#0029FF"
+  },
+  {
+    "NSID": 10321006,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#0029FF"
+  },
+  {
+    "NSID": 10321006,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#0029FF"
+  },
+  {
+    "NSID": 10351002,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#00FF29"
+  },
+  {
+    "NSID": 10351002,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#00FF29"
+  },
+  {
+    "NSID": 10351002,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#00FF29"
+  },
+  {
+    "NSID": 10351002,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#00FF29"
+  },
+  {
+    "NSID": 10371002,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#3300FF"
+  },
+  {
+    "NSID": 10371002,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#3300FF"
+  },
+  {
+    "NSID": 10371002,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#3300FF"
+  },
+  {
+    "NSID": 10371002,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#3300FF"
+  },
+  {
+    "NSID": 10381001,
+    "AEDOSE": "1",
+    "DV": "2",
+    "AEDOSE1": "1",
+    "DVC": "G2",
+    "NSID_Color": "#00D1FF"
+  },
+  {
+    "NSID": 10381001,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#00D1FF"
+  },
+  {
+    "NSID": 10381001,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#00D1FF"
+  },
+  {
+    "NSID": 10381001,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#00D1FF"
+  },
+  {
+    "NSID": 10401001,
+    "AEDOSE": "1",
+    "DV": "1",
+    "AEDOSE1": "1",
+    "DVC": "G1",
+    "NSID_Color": "#FF00E6"
+  },
+  {
+    "NSID": 10401001,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#FF00E6"
+  },
+  {
+    "NSID": 10401001,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#FF00E6"
+  },
+  {
+    "NSID": 10401001,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#FF00E6"
+  },
+  {
+    "NSID": 10401002,
+    "AEDOSE": "1",
+    "DV": "2",
+    "AEDOSE1": "1",
+    "DVC": "G2",
+    "NSID_Color": "#5200FF"
+  },
+  {
+    "NSID": 10401002,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#5200FF"
+  },
+  {
+    "NSID": 10401002,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#5200FF"
+  },
+  {
+    "NSID": 10401002,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#5200FF"
+  },
+  {
+    "NSID": 10461002,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#FF00A8"
+  },
+  {
+    "NSID": 10461002,
+    "AEDOSE": "2",
+    "DV": "1",
+    "AEDOSE1": "2",
+    "DVC": "G1",
+    "NSID_Color": "#FF00A8"
+  },
+  {
+    "NSID": 10461002,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#FF00A8"
+  },
+  {
+    "NSID": 10461002,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#FF00A8"
+  },
+  {
+    "NSID": 10461003,
+    "AEDOSE": "1",
+    "DV": "1",
+    "AEDOSE1": "1",
+    "DVC": "G1",
+    "NSID_Color": "#8000FF"
+  },
+  {
+    "NSID": 10461003,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#8000FF"
+  },
+  {
+    "NSID": 10461003,
+    "AEDOSE": "3",
+    "DV": "1",
+    "AEDOSE1": "3",
+    "DVC": "G1",
+    "NSID_Color": "#8000FF"
+  },
+  {
+    "NSID": 10461003,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#8000FF"
+  },
+  {
+    "NSID": 10461004,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#8000FF"
+  },
+  {
+    "NSID": 10461004,
+    "AEDOSE": "2",
+    "DV": "1",
+    "AEDOSE1": "2",
+    "DVC": "G1",
+    "NSID_Color": "#8000FF"
+  },
+  {
+    "NSID": 10461004,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#8000FF"
+  },
+  {
+    "NSID": 10461004,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#8000FF"
+  },
+  {
+    "NSID": 10461005,
+    "AEDOSE": "1",
+    "DV": "1",
+    "AEDOSE1": "1",
+    "DVC": "G1",
+    "NSID_Color": "#52FF00"
+  },
+  {
+    "NSID": 10461005,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#52FF00"
+  },
+  {
+    "NSID": 10461005,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#52FF00"
+  },
+  {
+    "NSID": 10461005,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#52FF00"
+  },
+  {
+    "NSID": 10481001,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#00FF47"
+  },
+  {
+    "NSID": 10481001,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#00FF47"
+  },
+  {
+    "NSID": 10481001,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#00FF47"
+  },
+  {
+    "NSID": 10481001,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#00FF47"
+  },
+  {
+    "NSID": 10481005,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#00FFC2"
+  },
+  {
+    "NSID": 10481005,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#00FFC2"
+  },
+  {
+    "NSID": 10481005,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#00FFC2"
+  },
+  {
+    "NSID": 10481005,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#00FFC2"
+  },
+  {
+    "NSID": 10511001,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#00C2FF"
+  },
+  {
+    "NSID": 10511001,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#00C2FF"
+  },
+  {
+    "NSID": 10511001,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#00C2FF"
+  },
+  {
+    "NSID": 10511001,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#00C2FF"
+  },
+  {
+    "NSID": 10541001,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#EBFF00"
+  },
+  {
+    "NSID": 10541001,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#EBFF00"
+  },
+  {
+    "NSID": 10541001,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#EBFF00"
+  },
+  {
+    "NSID": 10541001,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#EBFF00"
+  },
+  {
+    "NSID": 10541002,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#BDFF00"
+  },
+  {
+    "NSID": 10541002,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#BDFF00"
+  },
+  {
+    "NSID": 10541002,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#BDFF00"
+  },
+  {
+    "NSID": 10541002,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#BDFF00"
+  },
+  {
+    "NSID": 10561001,
+    "AEDOSE": "1",
+    "DV": "1",
+    "AEDOSE1": "1",
+    "DVC": "G1",
+    "NSID_Color": "#FF0099"
+  },
+  {
+    "NSID": 10561001,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#FF0099"
+  },
+  {
+    "NSID": 10561001,
+    "AEDOSE": "3",
+    "DV": "1",
+    "AEDOSE1": "3",
+    "DVC": "G1",
+    "NSID_Color": "#FF0099"
+  },
+  {
+    "NSID": 10561001,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#FF0099"
+  },
+  {
+    "NSID": 10561006,
+    "AEDOSE": "1",
+    "DV": "1",
+    "AEDOSE1": "1",
+    "DVC": "G1",
+    "NSID_Color": "#00FF94"
+  },
+  {
+    "NSID": 10561006,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#00FF94"
+  },
+  {
+    "NSID": 10561006,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#00FF94"
+  },
+  {
+    "NSID": 10561006,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#00FF94"
+  },
+  {
+    "NSID": 10681004,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#00FF0A"
+  },
+  {
+    "NSID": 10681004,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#00FF0A"
+  },
+  {
+    "NSID": 10681004,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#00FF0A"
+  },
+  {
+    "NSID": 10681004,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#00FF0A"
+  },
+  {
+    "NSID": 10741001,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#24FF00"
+  },
+  {
+    "NSID": 10741001,
+    "AEDOSE": "2",
+    "DV": "1",
+    "AEDOSE1": "2",
+    "DVC": "G1",
+    "NSID_Color": "#24FF00"
+  },
+  {
+    "NSID": 10741001,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#24FF00"
+  },
+  {
+    "NSID": 10741001,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#24FF00"
+  },
+  {
+    "NSID": 10741002,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#FF003D"
+  },
+  {
+    "NSID": 10741002,
+    "AEDOSE": "2",
+    "DV": "1",
+    "AEDOSE1": "2",
+    "DVC": "G1",
+    "NSID_Color": "#FF003D"
+  },
+  {
+    "NSID": 10741002,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#FF003D"
+  },
+  {
+    "NSID": 10741002,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#FF003D"
+  },
+  {
+    "NSID": 10741003,
+    "AEDOSE": "1",
+    "DV": "1",
+    "AEDOSE1": "1",
+    "DVC": "G1",
+    "NSID_Color": "#FF3D00"
+  },
+  {
+    "NSID": 10741003,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#FF3D00"
+  },
+  {
+    "NSID": 10741003,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#FF3D00"
+  },
+  {
+    "NSID": 10741003,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#FF3D00"
+  },
+  {
+    "NSID": 10741004,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#CCFF00"
+  },
+  {
+    "NSID": 10741004,
+    "AEDOSE": "2",
+    "DV": "1",
+    "AEDOSE1": "2",
+    "DVC": "G1",
+    "NSID_Color": "#CCFF00"
+  },
+  {
+    "NSID": 10741004,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#CCFF00"
+  },
+  {
+    "NSID": 10741004,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#CCFF00"
+  },
+  {
+    "NSID": 10771001,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#8000FF"
+  },
+  {
+    "NSID": 10771001,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#8000FF"
+  },
+  {
+    "NSID": 10771001,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#8000FF"
+  },
+  {
+    "NSID": 10771001,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#8000FF"
+  },
+  {
+    "NSID": 10771002,
+    "AEDOSE": "1",
+    "DV": "2",
+    "AEDOSE1": "1",
+    "DVC": "G2",
+    "NSID_Color": "#4200FF"
+  },
+  {
+    "NSID": 10771002,
+    "AEDOSE": "2",
+    "DV": "2",
+    "AEDOSE1": "2",
+    "DVC": "G2",
+    "NSID_Color": "#4200FF"
+  },
+  {
+    "NSID": 10771002,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#4200FF"
+  },
+  {
+    "NSID": 10771002,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#4200FF"
+  },
+  {
+    "NSID": 10791001,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#00FF57"
+  },
+  {
+    "NSID": 10791001,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#00FF57"
+  },
+  {
+    "NSID": 10791001,
+    "AEDOSE": "3",
+    "DV": "1",
+    "AEDOSE1": "3",
+    "DVC": "G1",
+    "NSID_Color": "#00FF57"
+  },
+  {
+    "NSID": 10791001,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#00FF57"
+  },
+  {
+    "NSID": 10791002,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#05FF00"
+  },
+  {
+    "NSID": 10791002,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#05FF00"
+  },
+  {
+    "NSID": 10791002,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#05FF00"
+  },
+  {
+    "NSID": 10791002,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#05FF00"
+  },
+  {
+    "NSID": 10791004,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#FF9900"
+  },
+  {
+    "NSID": 10791004,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#FF9900"
+  },
+  {
+    "NSID": 10791004,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#FF9900"
+  },
+  {
+    "NSID": 10791004,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#FF9900"
+  },
+  {
+    "NSID": 10791005,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#FF00C7"
+  },
+  {
+    "NSID": 10791005,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#FF00C7"
+  },
+  {
+    "NSID": 10791005,
+    "AEDOSE": "3",
+    "DV": "1",
+    "AEDOSE1": "3",
+    "DVC": "G1",
+    "NSID_Color": "#FF00C7"
+  },
+  {
+    "NSID": 10791005,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#FF00C7"
+  },
+  {
+    "NSID": 10801002,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#FF0F00"
+  },
+  {
+    "NSID": 10801002,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#FF0F00"
+  },
+  {
+    "NSID": 10801002,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#FF0F00"
+  },
+  {
+    "NSID": 10801002,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#FF0F00"
+  },
+  {
+    "NSID": 10801003,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#FF4D00"
+  },
+  {
+    "NSID": 10801003,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#FF4D00"
+  },
+  {
+    "NSID": 10801003,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#FF4D00"
+  },
+  {
+    "NSID": 10801003,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#FF4D00"
+  },
+  {
+    "NSID": 10821001,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#00FF57"
+  },
+  {
+    "NSID": 10821001,
+    "AEDOSE": "2",
+    "DV": "2",
+    "AEDOSE1": "2",
+    "DVC": "G2",
+    "NSID_Color": "#00FF57"
+  },
+  {
+    "NSID": 10821001,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#00FF57"
+  },
+  {
+    "NSID": 10821001,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#00FF57"
+  },
+  {
+    "NSID": 10821003,
+    "AEDOSE": "1",
+    "DV": "1",
+    "AEDOSE1": "1",
+    "DVC": "G1",
+    "NSID_Color": "#FF0099"
+  },
+  {
+    "NSID": 10821003,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#FF0099"
+  },
+  {
+    "NSID": 10821003,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#FF0099"
+  },
+  {
+    "NSID": 10821003,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#FF0099"
+  },
+  {
+    "NSID": 10821007,
+    "AEDOSE": "1",
+    "DV": "1",
+    "AEDOSE1": "1",
+    "DVC": "G1",
+    "NSID_Color": "#52FF00"
+  },
+  {
+    "NSID": 10821007,
+    "AEDOSE": "2",
+    "DV": "2",
+    "AEDOSE1": "2",
+    "DVC": "G2",
+    "NSID_Color": "#52FF00"
+  },
+  {
+    "NSID": 10821007,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#52FF00"
+  },
+  {
+    "NSID": 10821007,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#52FF00"
+  },
+  {
+    "NSID": 10901007,
+    "AEDOSE": "1",
+    "DV": "2",
+    "AEDOSE1": "1",
+    "DVC": "G2",
+    "NSID_Color": "#0038FF"
+  },
+  {
+    "NSID": 10901007,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#0038FF"
+  },
+  {
+    "NSID": 10901007,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#0038FF"
+  },
+  {
+    "NSID": 10901007,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#0038FF"
+  },
+  {
+    "NSID": 10901009,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#8F00FF"
+  },
+  {
+    "NSID": 10901009,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#8F00FF"
+  },
+  {
+    "NSID": 10901009,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#8F00FF"
+  },
+  {
+    "NSID": 10901009,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#8F00FF"
+  },
+  {
+    "NSID": 10921002,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#FF9900"
+  },
+  {
+    "NSID": 10921002,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#FF9900"
+  },
+  {
+    "NSID": 10921002,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#FF9900"
+  },
+  {
+    "NSID": 10921002,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#FF9900"
+  },
+  {
+    "NSID": 10921004,
+    "AEDOSE": "1",
+    "DV": "1",
+    "AEDOSE1": "1",
+    "DVC": "G1",
+    "NSID_Color": "#FF000F"
+  },
+  {
+    "NSID": 10921004,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#FF000F"
+  },
+  {
+    "NSID": 10921004,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#FF000F"
+  },
+  {
+    "NSID": 10921004,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#FF000F"
+  },
+  {
+    "NSID": 10921005,
+    "AEDOSE": "1",
+    "DV": "1",
+    "AEDOSE1": "1",
+    "DVC": "G1",
+    "NSID_Color": "#6100FF"
+  },
+  {
+    "NSID": 10921005,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#6100FF"
+  },
+  {
+    "NSID": 10921005,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#6100FF"
+  },
+  {
+    "NSID": 10921005,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#6100FF"
+  },
+  {
+    "NSID": 10931001,
+    "AEDOSE": "1",
+    "DV": "1",
+    "AEDOSE1": "1",
+    "DVC": "G1",
+    "NSID_Color": "#FF002E"
+  },
+  {
+    "NSID": 10931001,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#FF002E"
+  },
+  {
+    "NSID": 10931001,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#FF002E"
+  },
+  {
+    "NSID": 10931001,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#FF002E"
+  },
+  {
+    "NSID": 10931003,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#00E0FF"
+  },
+  {
+    "NSID": 10931003,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#00E0FF"
+  },
+  {
+    "NSID": 10931003,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#00E0FF"
+  },
+  {
+    "NSID": 10931003,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#00E0FF"
+  },
+  {
+    "NSID": 10971001,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#3300FF"
+  },
+  {
+    "NSID": 10971001,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#3300FF"
+  },
+  {
+    "NSID": 10971001,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#3300FF"
+  },
+  {
+    "NSID": 10971001,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#3300FF"
+  },
+  {
+    "NSID": 10981003,
+    "AEDOSE": "1",
+    "DV": "2",
+    "AEDOSE1": "1",
+    "DVC": "G2",
+    "NSID_Color": "#42FF00"
+  },
+  {
+    "NSID": 10981003,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#42FF00"
+  },
+  {
+    "NSID": 10981003,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#42FF00"
+  },
+  {
+    "NSID": 10981003,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#42FF00"
+  },
+  {
+    "NSID": 10981004,
+    "AEDOSE": "1",
+    "DV": "1",
+    "AEDOSE1": "1",
+    "DVC": "G1",
+    "NSID_Color": "#1400FF"
+  },
+  {
+    "NSID": 10981004,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#1400FF"
+  },
+  {
+    "NSID": 10981004,
+    "AEDOSE": "3",
+    "DV": "2",
+    "AEDOSE1": "3",
+    "DVC": "G2",
+    "NSID_Color": "#1400FF"
+  },
+  {
+    "NSID": 10981004,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#1400FF"
+  },
+  {
+    "NSID": 11001001,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#FF002E"
+  },
+  {
+    "NSID": 11001001,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#FF002E"
+  },
+  {
+    "NSID": 11001001,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#FF002E"
+  },
+  {
+    "NSID": 11001001,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#FF002E"
+  },
+  {
+    "NSID": 11001005,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#00FF85"
+  },
+  {
+    "NSID": 11001005,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#00FF85"
+  },
+  {
+    "NSID": 11001005,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#00FF85"
+  },
+  {
+    "NSID": 11001005,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#00FF85"
+  },
+  {
+    "NSID": 11001006,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#00FF85"
+  },
+  {
+    "NSID": 11001006,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#00FF85"
+  },
+  {
+    "NSID": 11001006,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#00FF85"
+  },
+  {
+    "NSID": 11001006,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#00FF85"
+  },
+  {
+    "NSID": 11021001,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#0047FF"
+  },
+  {
+    "NSID": 11021001,
+    "AEDOSE": "2",
+    "DV": "1",
+    "AEDOSE1": "2",
+    "DVC": "G1",
+    "NSID_Color": "#0047FF"
+  },
+  {
+    "NSID": 11021001,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#0047FF"
+  },
+  {
+    "NSID": 11021001,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#0047FF"
+  },
+  {
+    "NSID": 11021002,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#00FFB3"
+  },
+  {
+    "NSID": 11021002,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#00FFB3"
+  },
+  {
+    "NSID": 11021002,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#00FFB3"
+  },
+  {
+    "NSID": 11021002,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#00FFB3"
+  },
+  {
+    "NSID": 11021004,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#00FF0A"
+  },
+  {
+    "NSID": 11021004,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#00FF0A"
+  },
+  {
+    "NSID": 11021004,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#00FF0A"
+  },
+  {
+    "NSID": 11021004,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#00FF0A"
+  },
+  {
+    "NSID": 11021005,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#FF4D00"
+  },
+  {
+    "NSID": 11021005,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#FF4D00"
+  },
+  {
+    "NSID": 11021005,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#FF4D00"
+  },
+  {
+    "NSID": 11021005,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#FF4D00"
+  },
+  {
+    "NSID": 11021006,
+    "AEDOSE": "1",
+    "DV": "1",
+    "AEDOSE1": "1",
+    "DVC": "G1",
+    "NSID_Color": "#00E0FF"
+  },
+  {
+    "NSID": 11021006,
+    "AEDOSE": "2",
+    "DV": "1",
+    "AEDOSE1": "2",
+    "DVC": "G1",
+    "NSID_Color": "#00E0FF"
+  },
+  {
+    "NSID": 11021006,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#00E0FF"
+  },
+  {
+    "NSID": 11021006,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#00E0FF"
+  },
+  {
+    "NSID": 11021007,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#EBFF00"
+  },
+  {
+    "NSID": 11021007,
+    "AEDOSE": "2",
+    "DV": "1",
+    "AEDOSE1": "2",
+    "DVC": "G1",
+    "NSID_Color": "#EBFF00"
+  },
+  {
+    "NSID": 11021007,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#EBFF00"
+  },
+  {
+    "NSID": 11021007,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#EBFF00"
+  },
+  {
+    "NSID": 11021008,
+    "AEDOSE": "1",
+    "DV": "1",
+    "AEDOSE1": "1",
+    "DVC": "G1",
+    "NSID_Color": "#00FF47"
+  },
+  {
+    "NSID": 11021008,
+    "AEDOSE": "2",
+    "DV": "1",
+    "AEDOSE1": "2",
+    "DVC": "G1",
+    "NSID_Color": "#00FF47"
+  },
+  {
+    "NSID": 11021008,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#00FF47"
+  },
+  {
+    "NSID": 11021008,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#00FF47"
+  },
+  {
+    "NSID": 11021009,
+    "AEDOSE": "1",
+    "DV": "1",
+    "AEDOSE1": "1",
+    "DVC": "G1",
+    "NSID_Color": "#8FFF00"
+  },
+  {
+    "NSID": 11021009,
+    "AEDOSE": "2",
+    "DV": "1",
+    "AEDOSE1": "2",
+    "DVC": "G1",
+    "NSID_Color": "#8FFF00"
+  },
+  {
+    "NSID": 11021009,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#8FFF00"
+  },
+  {
+    "NSID": 11021009,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#8FFF00"
+  },
+  {
+    "NSID": 11021011,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#00FFE0"
+  },
+  {
+    "NSID": 11021011,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#00FFE0"
+  },
+  {
+    "NSID": 11021011,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#00FFE0"
+  },
+  {
+    "NSID": 11021011,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#00FFE0"
+  },
+  {
+    "NSID": 11021012,
+    "AEDOSE": "1",
+    "DV": "1",
+    "AEDOSE1": "1",
+    "DVC": "G1",
+    "NSID_Color": "#0075FF"
+  },
+  {
+    "NSID": 11021012,
+    "AEDOSE": "2",
+    "DV": "1",
+    "AEDOSE1": "2",
+    "DVC": "G1",
+    "NSID_Color": "#0075FF"
+  },
+  {
+    "NSID": 11021012,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#0075FF"
+  },
+  {
+    "NSID": 11021012,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#0075FF"
+  },
+  {
+    "NSID": 11021013,
+    "AEDOSE": "1",
+    "DV": "1",
+    "AEDOSE1": "1",
+    "DVC": "G1",
+    "NSID_Color": "#00B2FF"
+  },
+  {
+    "NSID": 11021013,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#00B2FF"
+  },
+  {
+    "NSID": 11021013,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#00B2FF"
+  },
+  {
+    "NSID": 11021013,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#00B2FF"
+  },
+  {
+    "NSID": 11041003,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#33FF00"
+  },
+  {
+    "NSID": 11041003,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#33FF00"
+  },
+  {
+    "NSID": 11041003,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#33FF00"
+  },
+  {
+    "NSID": 11041003,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#33FF00"
+  },
+  {
+    "NSID": 11041004,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#FF3D00"
+  },
+  {
+    "NSID": 11041004,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#FF3D00"
+  },
+  {
+    "NSID": 11041004,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#FF3D00"
+  },
+  {
+    "NSID": 11041004,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#FF3D00"
+  },
+  {
+    "NSID": 11061001,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#FF2E00"
+  },
+  {
+    "NSID": 11061001,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#FF2E00"
+  },
+  {
+    "NSID": 11061001,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#FF2E00"
+  },
+  {
+    "NSID": 11061001,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#FF2E00"
+  },
+  {
+    "NSID": 11061002,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#FFC700"
+  },
+  {
+    "NSID": 11061002,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#FFC700"
+  },
+  {
+    "NSID": 11061002,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#FFC700"
+  },
+  {
+    "NSID": 11061002,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#FFC700"
+  },
+  {
+    "NSID": 11061004,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#0066FF"
+  },
+  {
+    "NSID": 11061004,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#0066FF"
+  },
+  {
+    "NSID": 11061004,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#0066FF"
+  },
+  {
+    "NSID": 11061004,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#0066FF"
+  },
+  {
+    "NSID": 11061006,
+    "AEDOSE": "1",
+    "DV": "1",
+    "AEDOSE1": "1",
+    "DVC": "G1",
+    "NSID_Color": "#00FF57"
+  },
+  {
+    "NSID": 11061006,
+    "AEDOSE": "2",
+    "DV": "1",
+    "AEDOSE1": "2",
+    "DVC": "G1",
+    "NSID_Color": "#00FF57"
+  },
+  {
+    "NSID": 11061006,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#00FF57"
+  },
+  {
+    "NSID": 11061006,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#00FF57"
+  },
+  {
+    "NSID": 11081002,
+    "AEDOSE": "1",
+    "DV": "2",
+    "AEDOSE1": "1",
+    "DVC": "G2",
+    "NSID_Color": "#FF001F"
+  },
+  {
+    "NSID": 11081002,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#FF001F"
+  },
+  {
+    "NSID": 11081002,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#FF001F"
+  },
+  {
+    "NSID": 11081002,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#FF001F"
+  },
+  {
+    "NSID": 11081003,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#FF00D6"
+  },
+  {
+    "NSID": 11081003,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#FF00D6"
+  },
+  {
+    "NSID": 11081003,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#FF00D6"
+  },
+  {
+    "NSID": 11081003,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#FF00D6"
+  },
+  {
+    "NSID": 11081005,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#FF002E"
+  },
+  {
+    "NSID": 11081005,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#FF002E"
+  },
+  {
+    "NSID": 11081005,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#FF002E"
+  },
+  {
+    "NSID": 11081005,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#FF002E"
+  },
+  {
+    "NSID": 11091001,
+    "AEDOSE": "1",
+    "DV": "1",
+    "AEDOSE1": "1",
+    "DVC": "G1",
+    "NSID_Color": "#05FF00"
+  },
+  {
+    "NSID": 11091001,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#05FF00"
+  },
+  {
+    "NSID": 11091001,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#05FF00"
+  },
+  {
+    "NSID": 11091001,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#05FF00"
+  },
+  {
+    "NSID": 11091002,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#00E0FF"
+  },
+  {
+    "NSID": 11091002,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#00E0FF"
+  },
+  {
+    "NSID": 11091002,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#00E0FF"
+  },
+  {
+    "NSID": 11091002,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#00E0FF"
+  },
+  {
+    "NSID": 11101002,
+    "AEDOSE": "1",
+    "DV": "1",
+    "AEDOSE1": "1",
+    "DVC": "G1",
+    "NSID_Color": "#2400FF"
+  },
+  {
+    "NSID": 11101002,
+    "AEDOSE": "2",
+    "DV": "1",
+    "AEDOSE1": "2",
+    "DVC": "G1",
+    "NSID_Color": "#2400FF"
+  },
+  {
+    "NSID": 11101002,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#2400FF"
+  },
+  {
+    "NSID": 11101002,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#2400FF"
+  },
+  {
+    "NSID": 11101003,
+    "AEDOSE": "1",
+    "DV": "1",
+    "AEDOSE1": "1",
+    "DVC": "G1",
+    "NSID_Color": "#80FF00"
+  },
+  {
+    "NSID": 11101003,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#80FF00"
+  },
+  {
+    "NSID": 11101003,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#80FF00"
+  },
+  {
+    "NSID": 11101003,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#80FF00"
+  },
+  {
+    "NSID": 11111002,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#FFD600"
+  },
+  {
+    "NSID": 11111002,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#FFD600"
+  },
+  {
+    "NSID": 11111002,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#FFD600"
+  },
+  {
+    "NSID": 11111002,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#FFD600"
+  },
+  {
+    "NSID": 11111003,
+    "AEDOSE": "1",
+    "DV": "2",
+    "AEDOSE1": "1",
+    "DVC": "G2",
+    "NSID_Color": "#00FF85"
+  },
+  {
+    "NSID": 11111003,
+    "AEDOSE": "2",
+    "DV": "1",
+    "AEDOSE1": "2",
+    "DVC": "G1",
+    "NSID_Color": "#00FF85"
+  },
+  {
+    "NSID": 11111003,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#00FF85"
+  },
+  {
+    "NSID": 11111003,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#00FF85"
+  },
+  {
+    "NSID": 11171001,
+    "AEDOSE": "1",
+    "DV": "2",
+    "AEDOSE1": "1",
+    "DVC": "G2",
+    "NSID_Color": "#00FF85"
+  },
+  {
+    "NSID": 11171001,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#00FF85"
+  },
+  {
+    "NSID": 11171001,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#00FF85"
+  },
+  {
+    "NSID": 11171001,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#00FF85"
+  },
+  {
+    "NSID": 11171002,
+    "AEDOSE": "1",
+    "DV": "1",
+    "AEDOSE1": "1",
+    "DVC": "G1",
+    "NSID_Color": "#FF00C7"
+  },
+  {
+    "NSID": 11171002,
+    "AEDOSE": "2",
+    "DV": "1",
+    "AEDOSE1": "2",
+    "DVC": "G1",
+    "NSID_Color": "#FF00C7"
+  },
+  {
+    "NSID": 11171002,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#FF00C7"
+  },
+  {
+    "NSID": 11171002,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#FF00C7"
+  },
+  {
+    "NSID": 11171003,
+    "AEDOSE": "1",
+    "DV": "1",
+    "AEDOSE1": "1",
+    "DVC": "G1",
+    "NSID_Color": "#FF007A"
+  },
+  {
+    "NSID": 11171003,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#FF007A"
+  },
+  {
+    "NSID": 11171003,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#FF007A"
+  },
+  {
+    "NSID": 11171003,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#FF007A"
+  },
+  {
+    "NSID": 11171005,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#0075FF"
+  },
+  {
+    "NSID": 11171005,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#0075FF"
+  },
+  {
+    "NSID": 11171005,
+    "AEDOSE": "3",
+    "DV": "2",
+    "AEDOSE1": "3",
+    "DVC": "G2",
+    "NSID_Color": "#0075FF"
+  },
+  {
+    "NSID": 11171005,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#0075FF"
+  },
+  {
+    "NSID": 11171006,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#00FFF0"
+  },
+  {
+    "NSID": 11171006,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#00FFF0"
+  },
+  {
+    "NSID": 11171006,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#00FFF0"
+  },
+  {
+    "NSID": 11171006,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#00FFF0"
+  },
+  {
+    "NSID": 11171007,
+    "AEDOSE": "1",
+    "DV": "1",
+    "AEDOSE1": "1",
+    "DVC": "G1",
+    "NSID_Color": "#52FF00"
+  },
+  {
+    "NSID": 11171007,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#52FF00"
+  },
+  {
+    "NSID": 11171007,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#52FF00"
+  },
+  {
+    "NSID": 11171007,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#52FF00"
+  },
+  {
+    "NSID": 11211001,
+    "AEDOSE": "1",
+    "DV": "1",
+    "AEDOSE1": "1",
+    "DVC": "G1",
+    "NSID_Color": "#00FFB3"
+  },
+  {
+    "NSID": 11211001,
+    "AEDOSE": "2",
+    "DV": "1",
+    "AEDOSE1": "2",
+    "DVC": "G1",
+    "NSID_Color": "#00FFB3"
+  },
+  {
+    "NSID": 11211001,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#00FFB3"
+  },
+  {
+    "NSID": 11211001,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#00FFB3"
+  },
+  {
+    "NSID": 11241001,
+    "AEDOSE": "1",
+    "DV": "0",
+    "AEDOSE1": "1",
+    "DVC": "G0",
+    "NSID_Color": "#FA00FF"
+  },
+  {
+    "NSID": 11241001,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#FA00FF"
+  },
+  {
+    "NSID": 11241001,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#FA00FF"
+  },
+  {
+    "NSID": 11241001,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#FA00FF"
+  },
+  {
+    "NSID": 11241002,
+    "AEDOSE": "1",
+    "DV": "1",
+    "AEDOSE1": "1",
+    "DVC": "G1",
+    "NSID_Color": "#2400FF"
+  },
+  {
+    "NSID": 11241002,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#2400FF"
+  },
+  {
+    "NSID": 11241002,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#2400FF"
+  },
+  {
+    "NSID": 11241002,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#2400FF"
+  },
+  {
+    "NSID": 11281002,
+    "AEDOSE": "1",
+    "DV": "1",
+    "AEDOSE1": "1",
+    "DVC": "G1",
+    "NSID_Color": "#70FF00"
+  },
+  {
+    "NSID": 11281002,
+    "AEDOSE": "2",
+    "DV": "0",
+    "AEDOSE1": "2",
+    "DVC": "G0",
+    "NSID_Color": "#70FF00"
+  },
+  {
+    "NSID": 11281002,
+    "AEDOSE": "3",
+    "DV": "0",
+    "AEDOSE1": "3",
+    "DVC": "G0",
+    "NSID_Color": "#70FF00"
+  },
+  {
+    "NSID": 11281002,
+    "AEDOSE": "4",
+    "DV": "0",
+    "AEDOSE1": "≥ 4",
+    "DVC": "G0",
+    "NSID_Color": "#70FF00"
+  }
+]

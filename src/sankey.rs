@@ -1,15 +1,26 @@
-use std::collections::{BTreeMap, HashMap, HashSet};
-use std::fmt::{Debug, Display};
-use std::ops::Range;
-
+use itertools::{Itertools, Permutations};
 use petgraph::stable_graph::{EdgeIndex, NodeIndex};
 use petgraph::visit::{EdgeRef, Topo, Walker};
 use petgraph::Directed;
+use std::collections::{BTreeMap, HashMap, HashSet};
+use std::fmt::{Debug, Display};
+use std::iter::Iterator;
+use std::ops::Range;
+use std::slice::Iter;
 
-use itertools::Itertools;
-
-fn x() {
-    let perms = (5..8).permutations(2);
+struct SankeyDiagram<'layers> {
+    layers: &'layers [Vec<NodeIndex>],
+}
+impl<'layers> SankeyDiagram<'layers> {
+    fn permutations(&self) -> Vec<Permutations<Iter<NodeIndex>>> {
+        self.layers
+            .into_iter()
+            .map(|slots| {
+                let k = slots.len();
+                slots.iter().permutations(k)
+            })
+            .collect::<Vec<_>>()
+    }
 }
 
 struct IVec2 {
